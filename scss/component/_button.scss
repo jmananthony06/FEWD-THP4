@@ -1,0 +1,31 @@
+/* base button class */
+
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+  /* Nested selector */
+  &.default {
+    background-color: $lightblue;
+  }
+
+  &.error {
+    background-color: $lightRed;
+  }
+
+  &.info {
+    background-color: $purple;
+  }
+
+  &.success {
+    background-color: $green;
+  }
+
+  &.warning {
+    background-color: $lightOrange;
+  }
+}
